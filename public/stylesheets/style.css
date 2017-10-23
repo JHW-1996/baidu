@@ -1,0 +1,117 @@
+body {
+ 
+  clear: both;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+*{
+	padding: 0;
+  margin: 0;
+}
+a{
+	color: black;
+}
+.top{
+	float: right;
+	margin-right: 20px;
+}
+.top>ul>li{
+	float: left;
+	list-style: none;
+	width: 60px;
+	height: 25px;
+	text-align: center;
+	font-family: "微软雅黑";
+	line-height: 25px;
+	
+}
+.top>li>a{
+	color: black;
+}
+.gd>a{
+	background: blue;
+	text-decoration: none;
+	color: white;
+	width: 70px;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+}
+.logo{
+	float: left;
+	margin-left: 660px;
+	margin-top: 30px;
+}
+.inp{
+	float: left;
+	width: 700px;
+	height: 40px;
+	margin-left: 440px;
+	margin-top: 20px;
+	
+}
+.inp>input{
+	width: 550px;
+	height: 30px;
+	float: left;
+	
+}
+.inp>button{
+	float: left;
+	width: 100px;
+	height: 36px;
+	background: blue;
+	color: white;
+	border: none;
+}
+.footer{
+	float: left;
+	width: 80px;
+	height: 80px;
+	background: red;
+	margin-top: 250px;
+	clear: both;
+	margin-left: 700px;
+	background: red;
+}
+.footer img{
+	width: 100%;
+	height: 100%;
+}
+.footer p{
+	float: left;
+	margin-left: 10px;
+	color: darkgray;
+}
+.footerf{
+	float: left;
+	width: 500px;
+	height: 50px;
+	/*background: red;*/
+	clear: both;
+	margin-left: 550px;
+  margin-top: 50px;
+}
+.footerf>ul>li{
+	float: left;
+	list-style: none;
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	font-family: "微软雅黑";
+	line-height: 25px;
+}
+.footerf>ul>li>a{
+	color: darkgrey;
+}
+.footerl{
+	float: left;
+	width: 600px;
+	height: 25px;
+	/*background: red;*/
+	margin-left: 450px;
+	color: darkgray;
+}
+.footerl>p>a{
+	margin-left: 10px;
+	color: darkgray;
+}
